@@ -1,5 +1,14 @@
 // build with "gcc main.c game.c menu.c appearance.c -lncurses -o dino.exe"
 
+/*
+Sono Matteo Abis
+Ho modificato il file
+;D
+*/
+
+
+
+
 #include <ncurses.h>
 #include <stdio.h>
 #include "menu.h"
