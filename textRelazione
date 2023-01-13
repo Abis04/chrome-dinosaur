@@ -1,0 +1,7 @@
+1)Dopo aver scaricato GIT in locale si apriamo il prompt dei comandi
+2)Verificare che GIT si sia installato correttamente attraverso il comando git
+3)Un volta verificato che si sia installato correttamente, procediamo con la creazione della cartella in cui vogliamo clonare il nostro lavoro creato come repository su git web. Usiamo quindi il comando mkdir "nomeCartella" e successivamente usiamo il comando c "nomeCartella" per accederci.
+4)Usiamo il comando git clone copia incollando l'url del nostro profilo in cui abbiamo la repository clonata, ci clonerà il lavoro all'interno ella cartella.
+5)Prendiamo un file a caso e lo modifichiamo, per rendere definitive le modifiche usiamo la git add e facciamo git add "nomeFile con estensione".
+6)Faccaimo poi la git commit, si possono usare due modi, il primo git commit "commento" oppure git commit *. Io ho usato git commit * e mi è uscito un errore che per risolverlo mi è bastato usare git commit --global user.name "email usata per registrarsi su git". Facendo così si aprirà una schermata in cui ci chiederà di aggiungere noi il commento.
+6)Una volta commentato facciamo la git push e chiederà l'autenticazione, una volta fatta refreshiamo la pagina e se i passaggi sono corretti si visualizzerà il commento scritto nel file modificato.
